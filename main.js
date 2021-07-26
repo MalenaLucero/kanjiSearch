@@ -5,7 +5,7 @@ const jlpt4Kanjis = require('./kanjiData/jlpt4Kanjis')
 const notJlpt4Kanjis = require('./kanjiData/notJlpt4Kanjis')
 const uploadedKanji = notJlpt4Kanjis.concat(jlpt4Kanjis)
 
-const expressions = require('./100721expressions')
+const expressions = require('./expressions')
 
 const kanjiArray = expressions.map(e => e.word).join('').split('')
     .filter(char => char.charCodeAt() >= 13312 && char.charCodeAt() < 65306)
@@ -35,5 +35,5 @@ const populateTxtFiles = kanjiToSearch => {
     })
 }
 
-//populateTxtFiles(notUploadedKanji)
+populateTxtFiles(notUploadedKanji)
 

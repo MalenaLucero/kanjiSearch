@@ -1,500 +1,803 @@
-const expressions120621 = [
+const expressions240721 = [
     {
-        word: "安息",
-        reading: "あんそく",
+        word: "蚊帳の外",
+        reading: "かやのそと",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["rest; repose"],
+        englishMeaning: [],
+        japaneseMeaning: ["無視され、不利な扱いを受けること。また、物事に関与できない位置に置かれること。内情がわからない立場に置かれること。「当事者を蚊帳の外に置いて議論が進む」「優勝争いから遠のき蚊帳の外に追いやられる」"],
+        exampleSentences: [
+            {
+                sentence: "この世界の誰もが 君を忘れ去っても / 随分老けたねって 今日も隣で笑うから",
+                source: {
+                    name: "どろん - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "舐める",
+        reading: "なめる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to lick; to lap; to suck"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "君の幸せをずっと眺めてる / 安息の光の中",
+                sentence: "今日だって 傷を舐めあって / 面の皮取り繕って",
                 source: {
-                    name: "君のつづき - Kitani Tatsuya",
+                    name: "どろん - King Gnu",
                     link: ""
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
-        word: "足枷",
-        reading: "あしかせ",
+        word: "舐める",
+        reading: "なめる",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["fetters; shackles; hobbles; encumbrance; hindrance; burden; trap"],
+        englishMeaning: ["to lick; to lap; to suck"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "想い出の足枷を解いて、幸せになってね",
+                sentence: "今日だって 傷を舐めあって / 面の皮取り繕って",
                 source: {
-                    name: "君のつづき - Kitani Tatsuya",
+                    name: "どろん - King Gnu",
                     link: ""
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
-        word: "破片",
-        reading: "はへん",
+        word: "取り繕う",
+        reading: "とりつくろう",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["fragment; broken piece; splinter; chip; shard"],
+        englishMeaning: ["to keep up (appearances)"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "粉々になった心の破片で、足の踏み場もない部屋",
+                sentence: "この世界の誰もが 君を忘れ去っても / 随分老けたねって 今日も隣で笑うから",
                 source: {
-                    name: "穴の空いた生活 - Kitani Tatsuya",
+                    name: "三文小説 - King Gnu",
                     link: ""
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
-        word: "覗く",
-        reading: "のぞく",
+        word: "皺",
+        reading: "しわ",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["to peek (through a keyhole, gap, etc.)"],
-        japaneseMeaning: ["物陰やすきま、小さな穴などから見る。「鍵穴から―・く」「部屋を―・く」"],
-        exampleSentences: [
-            {
-                sentence: "まるで君がこちらを覗く窓みたいだ / 温みが残る僕の続きを、笑って眺めていて",
-                source: {
-                    name: "穴の空いた生活 - Kitani Tatsuya",
-                    link: ""
-                }
-            }
-        ],
-        tags: []
-    }, {
-        word: "淡い",
-        reading: "あわい",
-        transitivity: {
-            type: "",
-            opposingWord: ""
-        },
-        englishMeaning: ["light; faint; pale; fleeting"],
+        englishMeaning: ["wrinkle; crease"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "君との淡い幸せな記憶に、たまには逃げてもいいかな",
+                sentence: "怯えなくて良いんだよ / そのままの君で良いんだよ / 増えた皺の数を隣で数えながら",
                 source: {
-                    name: "穴の空いた生活 - Kitani Tatsuya",
+                    name: "三文小説 - King Gnu",
                     link: ""
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
-        word: "待遇",
-        reading: "たいぐう",
+        word: "投げ売り",
+        reading: "なうげり",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["treatment; reception; service​", "working conditions; salary; pay; remuneration"],
-        japaneseMeaning: ["人をもてなすこと。あしらい。「待遇の良いホテル」「大切な客として待遇する」", "給与・勤務時間など、雇用者の勤労者に対する取り扱い。処遇。「待遇を改善する」「高給で待遇する」"],
+        englishMeaning: ["sacrifice sale; selling at a loss; dumping; clearance sale"],
+        japaneseMeaning: ["損を承知で、安値で売ること。捨て売り。「在庫品を投げ売りする」"],
         exampleSentences: [
             {
-                sentence: "悪い仕事をしているってよりはどちかというと従業員に対して、社員に対して、待遇がよくないとか、従業員に対しての扱いが悪い会社のことをブラック企業とよく言いますよね",
+                sentence: "僕らの人生が 三文小説だとしても / 投げ売る気は無いね 何度でも書き直すよ",
                 source: {
-                    name: "EP-104 ブラック企業と残業文化 Exploitative enterpriseand Overwork culture(N2-N1)",
+                    name: "三文小説 - King Gnu",
                     link: ""
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["歌"]
     }, {
-        word: "繁忙",
-        reading: "はんぼう",
+        word: "書き足す",
+        reading: "かきたす",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["pressure of business; busy"],
-        japaneseMeaning: ["仕事が多くて忙しいこと。また、そのさま。「―を極めた生活」「日々の―から逃れる」「―な時期」"],
+        englishMeaning: ["to add to; to insert"],
+        japaneseMeaning: ["不十分な点を補って書く。書き加える。「説明を―・す」"],
         exampleSentences: [
             {
-                sentence: "日本だけじゃなくて世界中、ま、人気の会社とかやっぱり繁忙期、会社の繁忙期、繁忙期っていうのは忙しいシーズンですね",
+                sentence: "誰もが愛任せ いつまでも彷徨う定め / この小説の果ての その先を書き足すよ",
                 source: {
-                    name: "EP-104 ブラック企業と残業文化 Exploitative enterpriseand Overwork culture(N2-N1)",
+                    name: "三文小説 - King Gnu",
                     link: ""
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["歌"]
     }, {
-        word: "店舗",
-        reading: "てんぽ",
+        word: "駄文",
+        reading: "だぶん",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["shop; store"],
-        japaneseMeaning: ["商品を並べて売るための建物。みせ。「―を広げる」「大型―」"],
+        englishMeaning: ["poor piece of writing​", "my poor writing"],
+        japaneseMeaning: ["つまらない文章。へたくそな文章。", "自分の文章を謙遜していう語。"],
         exampleSentences: [
             {
-                sentence: "あと、多店舗展開している会社ですね。多店舗展開というのは店舗を持っている会社ということですね。店舗っていうのは、まあ、店。例えば、飲食店とか、デパート、スーパーとかもそうだし、お店がありますよね、とか、かなあ",
+                sentence: "駄文ばかりの脚本と 三文芝居にいつ迄も / 付き合っていたいのさ",
                 source: {
-                    name: "EP-104 ブラック企業と残業文化 Exploitative enterpriseand Overwork culture(N2-N1)",
+                    name: "三文小説 - King Gnu",
                     link: ""
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["歌"]
     }, {
-        word: "部署",
-        reading: "ぶしょ",
+        word: "脚本",
+        reading: "きゃくほん",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["one's post; one's station; department; bureau; section"],
-        japaneseMeaning: ["それぞれに役割や分担を決めること。また、その役割や担当した場所。持ち場。「部署を移る」「部署に就く」"],
+        englishMeaning: ["script; screenplay; scenario"],
+        japaneseMeaning: ["演劇や映画などの仕組み・舞台装置、俳優のせりふ・動作などを記したもの。台本。本。映画・放送ではシナリオともいう。"],
         exampleSentences: [
             {
-                sentence: "一日で店舗を回り切れないから、夜遅くまで車でその店舗に行ってチェックしたりしてたっていうのがあって、あとはその部署の上司が、まあ、パワハラじゃないけど、その上司がすごくもうワークホリックの人だったんだって",
+                sentence: "駄文ばかりの脚本と 三文芝居にいつ迄も / 付き合っていたいのさ",
                 source: {
-                    name: "EP-104 ブラック企業と残業文化 Exploitative enterpriseand Overwork culture(N2-N1)",
+                    name: "三文小説 - King Gnu",
                     link: ""
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["歌"]
     }, {
-        word: "浸透",
-        reading: "しんとう",
+        word: "芝居",
+        reading: "しばい",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["permeation (of thought, ideology, culture, etc.); infiltration (e.g. of ideas); spread; penetration (e.g. into a market); pervasion"],
-        japaneseMeaning: ["水などが、しみとおること。「雨水が地下に浸透する」「堤防の浸透破壊」", "思想・風潮・雰囲気などがしだいに広い範囲に行きわたること。「新しい生活様式が国民に浸透する」"],
-        exampleSentences: [
-            {
-                sentence: "だから休むのは許されないみたいな、その上司の考えがその部下にも、なんだろう、浸透しているってか、もはや洗脳みたいな感じなんだけど、してて、逆らえないということがあって",
-                source: {
-                    name: "EP-104 ブラック企業と残業文化 Exploitative enterpriseand Overwork culture(N2-N1)",
-                    link: ""
-                }
-            }
-        ],
-        tags: []
-    }, {
-        word: "発散",
-        reading: "はっさん",
-        transitivity: {
-            type: "",
-            opposingWord: ""
-        },
-        englishMeaning: ["emission; emanation; radiation; diffusion; dispersion​", "letting out (feelings); venting"],
-        japaneseMeaning: ["内部にたまったものが外部へ散らばって出ること。また、外部へ散らばり出ること。「ストレスを発散させる」", "一点から出た光が広がって進むこと"],
-        exampleSentences: [
-            {
-                sentence: "すごく太って、もう食べることでストレスを発散するっていうふうになっちゃって、もうすごい太ってたんですよ",
-                source: {
-                    name: "EP-104 ブラック企業と残業文化 Exploitative enterpriseand Overwork culture(N2-N1)",
-                    link: ""
-                }
-            }
-        ],
-        tags: []
-    }, {
-        word: "犠牲",
-        reading: "ぎせい",
-        transitivity: {
-            type: "",
-            opposingWord: ""
-        },
-        englishMeaning: ["sacrifice; victim"],
-        japaneseMeaning: ["人や動物を生きたまま神に供えること。また、その供え物。「―をささげる」", "ほかの人やある物事のために生命や名誉・利益を投げ捨てること。また、その人。犠牲 (ぎせい) 。「企業間戦争の―になる」"],
-        exampleSentences: [
-            {
-                sentence: "どんなに有名な会社でも、有名な会社で働く意味、自分の体を犠牲にしてまで有名な会社で働かなきゃ行けない意味なんて一ミリもないからねと思います",
-                source: {
-                    name: "EP-104 ブラック企業と残業文化 Exploitative enterpriseand Overwork culture(N2-N1)",
-                    link: ""
-                }
-            }
-        ],
-        tags: ["仕事"]
-    }, {
-        word: "構造",
-        reading: "こうぞう",
-        transitivity: {
-            type: "",
-            opposingWord: ""
-        },
-        englishMeaning: ["structure; construction; pattern"],
+        englishMeaning: ["play; drama"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "「順次進行」「条件分岐」「繰り返し」です。この3つの動きのことをまとめて、プログラムの基本構造と言ったり、制御構造、制御フローと言ったりします。",
+                sentence: "駄文ばかりの脚本と 三文芝居にいつ迄も / 付き合っていたいのさ",
                 source: {
-                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    name: "三文小説 - King Gnu",
                     link: ""
                 }
             }
         ],
-        tags: ["プログラミング"]
+        tags: ["歌"]
     }, {
-        word: "順次",
-        reading: "じゅんじ",
+        word: "秒針",
+        reading: "びょうしん",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["in order; sequential; seriatim"],
+        englishMeaning: ["second hand (of clock)"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "順次進行とは、プログラムが書かれている上から順に処理をしていくというプログラムの構造です",
+                sentence: "悲しまないで良いんだよ / そのままの君が良いんだよ / 過ぎゆく秒針を隣で数えながら",
                 source: {
-                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    name: "三文小説 - King Gnu",
                     link: ""
                 }
             }
         ],
-        tags: ["プログラミング"]
+        tags: ["歌"]
     }, {
-        word: "条件分岐",
-        reading: "じょうけんぶんき",
+        word: "区切る",
+        reading: "くぎる",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["conditional branch"],
+        englishMeaning: ["to demarcate; to delimit; to divide (an area); to mark off; to cut off​esp. 区切る", "to punctuate; to put an end to (e.g. a sentence); to insert pauses or breaks (e.g. when reading aloud)"],
+        japaneseMeaning: ["言葉や文章などに、意味・内容や音節などのまとまりで切れ目をつける。句読点や段落を施す。「一言一言―・って話す」", "ある広さをもつものを、境をつけていくつかに分ける。境界を設ける。「広間をカーテンで―・る」"],
+        exampleSentences: [
+            {
+                sentence: "止めどなく流るる泪雨が / 小説のように人生を何章にも / 区切ってくれるから",
+                source: {
+                    name: "三文小説 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "愚か",
+        reading: "おろか",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["foolish; stupid"],
+        japaneseMeaning: ["頭の働きが鈍いさま。考えが足りないさま。「彼の言葉を愚かにも信じてしまう」", "ばかげているさま。「戦争など愚かなことだ」", "未熟なさま。「この芸に―なるを見て"],
+        exampleSentences: [
+            {
+                sentence: "愚かだと分かっていても尚 / 足掻き続けなきゃいけない物語があるよ",
+                source: {
+                    name: "三文小説 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "足掻く",
+        reading: "あがく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to paw (at) the ground​", "to struggle (using one's arms and legs); to flounder; to flail about​", "to struggle (to escape an adverse situation); to strive; to make every effort"],
+        japaneseMeaning: ["手足を振り動かしてもがく。じたばたする。「水面に浮かび上がろうと―・く」","活路を見いだそうとして必死になって努力する。あくせくする。「今さら―・いてもしかたがない」", "馬などが前足で地面をかく。また、そのようにして進む。"],
+        exampleSentences: [
+            {
+                sentence: "愚かだと分かっていても尚 / 足掻き続けなきゃいけない物語があるよ",
+                source: {
+                    name: "三文小説 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "立ち尽くす",
+        reading: "たちつくす",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to stand stock still"],
+        japaneseMeaning: ["感激したり呆然となったりして、いつまでもじっと立っている。「なすすべもなくその場に―・す」"],
+        exampleSentences: [
+            {
+                sentence: "あゝ / 立ち尽くした あの日の頼りない背中を / 今なら強く押して見せるから",
+                source: {
+                    name: "三文小説 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "泡",
+        reading: "あわ / あぶく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["bubble; foam; froth; head on beer"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "条件分岐とは、特定の条件のときはAという処理、そうじゃないときはBという処理をするプログラム構造です",
+                sentence: "消えたの / 泡となり / 消えたの / いつの間にか",
                 source: {
-                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
-                    link: ""
-                }
-            }, {
-                sentence: "繰り返しとは、決まった回数や条件を満たすまで同じ処理を繰り返すプログラム構造です",
-                source: {
-                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    name: "泡 - King Gnu",
                     link: ""
                 }
             }
         ],
-        tags: ["プログラミング"]
+        tags: ["歌"]
     }, {
-        word: "制御",
-        reading: "せいぎょ",
+        word: "清らか",
+        reading: "きよらか",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["control (of a machine, device, etc.)"],
+        englishMeaning: ["clean; pure; chaste"],
+        japaneseMeaning: ["けがれなく澄みきって美しいさま。清純なさま。「清らかな谷川の流れ」「清らかな愛」"],
+        exampleSentences: [
+            {
+                sentence: "わかってりゃ / もっとずっと一層 / 清らかに / 溶け合ったのにね / この気持ち",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "跳ねる",
+        reading: "はねる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to jump; to leap; to prance; to spring up; to bound; to hop​", "to break up; to close; to come to an end​", "to hit (e.g. to have a car hit something or someone)"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "「順次進行」「条件分岐」「繰り返し」です。この3つの動きのことをまとめて、プログラムの基本構造と言ったり、制御構造、制御フローと言ったりします",
+                sentence: "跳ねたの / 魚と成り",
                 source: {
-                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    name: "泡 - King Gnu",
                     link: ""
                 }
             }
         ],
-        tags: ["プログラミング"]
+        tags: ["歌"]
     }, {
-        word: "表示",
-        reading: "ひょうじ",
+        word: "軽やか",
+        reading: "かろやか",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["indication; expression; showing; manifestation; demonstration​", "display; displaying"],
-        japaneseMeaning: ["はっきりと表し示すこと。「原料をラベルに表示する」", "図表にして示すこと。「生産額を表示する」"],
+        englishMeaning: ["light; easy; non-serious; minor"],
+        japaneseMeaning: ["いかにも軽そうなさま。軽快なさま。かろらか。かるやか。「軽やかな身のこなし」"],
         exampleSentences: [
             {
-                sentence: "例えば、ソースコードが「おはよう」「こんにちは」「こんばんは」とパソコンの画面上に表示させるプログラムだったとします",
+                sentence: "誰よりも / 軽やかに",
                 source: {
-                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    name: "泡 - King Gnu",
                     link: ""
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
-        word: "値",
-        reading: "あたい",
+        word: "パチン",
+        reading: "",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["value"],
+        englishMeaning: ["with a click; with a snap"],
+        japaneseMeaning: ["固い物が強く当たって立てる音を表す語。「ぱちり」よりも鋭い感じを表す。「ぱちんとスナップを留める」「指をぱちんと鳴らす」", "物が勢いよくはじけたりする音を表す語。「栗がぱちんとはぜる」"],
+        exampleSentences: [
+            {
+                sentence: "パチンと弾けて / 泡のように消えた",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "弾ける",
+        reading: "はじける",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to burst open; to split open; to pop"],
+        japaneseMeaning: ["中身がいっぱいになって、裂けて割れる。割れて口を開く。はぜる。「クリの実が―・ける」「ポケットが―・けそうだ」"],
+        exampleSentences: [
+            {
+                sentence: "パチンと弾けて / 泡のように消えた",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "呆気ない",
+        reading: "あっけない",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["unsatisfying; disappointing; abrupt; not enough; too quick; too short; over too soon"],
+        japaneseMeaning: ["思ったより内容が貧弱または単純で、おもしろみがない。期待外れでもの足りない。「―・い結末」「―・く敗れる」"],
+        exampleSentences: [
+            {
+                sentence: "呆気のない運命が心をえぐった",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "抉る",
+        reading: "えぐる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to gouge; to hollow out; to bore; to excavate; to scoop out​Usually written using kana alone", "to greatly perturb; to cause emotional pain"],
+        japaneseMeaning: ["刃物などを深く刺し入れ、回して穴をあける。くりぬく。「りんごの芯を―・る」", "心に強い衝動や苦痛を与える。「胸を―・られる悲しみ」", "物事の隠れた面を鋭く追及する。「事件の核心を―・る」"],
+        exampleSentences: [
+            {
+                sentence: "呆気のない運命が心をえぐった",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "歯痒い",
+        reading: "はがゆい",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["impatient; tantalized; tantalised; irritated; chagrined; chagrinned; vexed"],
+        japaneseMeaning: ["思いどおりにならなくて、いらだたしい。もどかしい。「―・くて見ていられない」"],
+        exampleSentences: [
+            {
+                sentence: "確かに感じた / 仄かに歯がゆい / 過ぎ去った運命に / 囚われたままで",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "何時しか",
+        reading: "いつしか",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["before one knows; unnoticed; unawares"],
+        japaneseMeaning: ["いつのまにか。早くも。「何時しか今年も暮れてしまった」"],
+        exampleSentences: [
+            {
+                sentence: "いつしか夢中で / 追いかけてたのは影",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "要因",
+        reading: "よういん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["main cause; primary factor"],
+        japaneseMeaning: ["物事がそうなった主要な原因。「事件の要因を探る」"],
+        exampleSentences: [
+            {
+                sentence: "都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
+                source: {
+                    name: "NHK - 都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "坪",
+        reading: "つぼ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["tsubo; traditional unit of land area, approx. 3.31 square meters"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "例えば、あるデータの値が20以上なら「おとな」と画面上に表示させて、20未満なら「こども」と表示させるといった処理ができます",
+                sentence: "1フロアの面積が100坪以上あるオフィスビル",
                 source: {
-                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    name: "NHK - 都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
                     link: ""
                 }
             }
         ],
-        tags: ["プログラミング"]
+        tags: ["記事"]
     }, {
-        word: "反復",
-        reading: "はんぷく",
+        word: "賃料",
+        reading: "ちんりょう",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["repetition; iteration; recursion"],
+        englishMeaning: ["rent; rental"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "繰り返しは、反復処理といったりもします",
+                sentence: "オフィス仲介大手の「三鬼商事」は、毎月、1フロアの面積が100坪以上あるオフィスビルの空室率や賃料などを調査しています",
                 source: {
-                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    name: "NHK - 都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
                     link: ""
                 }
             }
         ],
-        tags: ["プログラミング"]
+        tags: ["記事"]
     }, {
-        word: "作成",
-        reading: "さくせい",
+        word: "竣工",
+        reading: "しゅんこう",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["preparing; writing; framing; making; producing; creating"],
+        englishMeaning: ["completion of construction"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "英語で挨拶は、Greetingといいます。なので、ファイル名を「Greeting.java」としましょう。これでJavaファイルの作成はおわります。",
+                sentence: "しゅんこうした新築ビルでも空室率の上昇が続いていて、6月は9.85％の高い水準となりました",
                 source: {
-                    name: "【Java超入門コース】05.プログラム実行方法 ｜プログラムを書いて動かしてみよう",
+                    name: "NHK - 都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
                     link: ""
                 }
             }
         ],
-        tags: ["プログラミング"]
+        tags: ["記事"]
     }, {
-        word: "定義",
-        reading: "ていぎ",
+        word: "水準",
+        reading: "すいじゅん",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["definition"],
+        englishMeaning: ["level; standard"],
+        japaneseMeaning: ["事物の一定の標準。また、価値・能力などを定めるときの標準となる程度。レベル。「技術が水準に達する」「水準を上回る成績」「生活水準が高い」", "土地・建物などの高低・水平の度合いを測ること。また、その道具。水盛 (みずもり) 。", "線路の曲線部における、左右のレールの高低差。"],
+        exampleSentences: [
+            {
+                sentence: "しゅんこうした新築ビルでも空室率の上昇が続いていて、6月は9.85％の高い水準となりました",
+                source: {
+                    name: "NHK - 都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "何れも",
+        reading: "いずれも",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["any; all; every; both; either; none (with neg. verb)"],
+        japaneseMeaning: ["どれも。だれも。それぞれ。「何れもすぐれた短編を集める」"],
+        exampleSentences: [
+            {
+                sentence: "いずれも前の月より上昇した",
+                source: {
+                    name: "NHK - 都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "幾分",
+        reading: "いくぶん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["somewhat; to some extent; to some degree"],
+        japaneseMeaning: ["いくつかに分けたうちの一部分。いくらか。「もうけの幾分かを分けてやる」", "程度が小さいさま。いくらか。少し。「幾分気がひける」「幾分できが悪い」"],
+        exampleSentences: [
+            {
+                sentence: "いずれも前の月より上昇した",
+                source: {
+                    name: "新宿区は6.32％で、いくぶん低下しました。",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "赴任",
+        reading: "ふにん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["moving to a different location to start a new job; (proceeding to) new appointment"],
+        japaneseMeaning: ["任地におもむくこと。「単身で赴任する」"],
+        exampleSentences: [
+            {
+                sentence: "ある日、夫が海外赴任となったら。妻であるあなたは仕事を辞めて、ついていくしかないと思いがちでしょうか",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "形成",
+        reading: "けいせい",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["formation; molding; making up; taking form; giving form to"],
+        japaneseMeaning: ["一つのまとまったものに作り上げること。形づくること。「人格を形成する」"],
+        exampleSentences: [
+            {
+                sentence: "新型コロナの影響で急速に広がったテレワークが、海外からでも仕事を続けることを可能にし、女性たちのキャリア形成の支えにもなろうとしています",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "世帯",
+        reading: "せたい",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["household; home; family; housekeeping"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "クラスを作ることをクラスを定義するといいます",
+                sentence: "一方、共働き世帯では多くのケースで妻が、家族か仕事かの選択を迫られがちです。",
                 source: {
-                    name: "【Java超入門コース】05.プログラム実行方法 ｜プログラムを書いて動かしてみよう",
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
                     link: ""
                 }
             }
         ],
-        tags: ["プログラミング"]
+        tags: ["記事"]
     }, {
-        word: "土台",
-        reading: "どだい",
+        word: "一助",
+        reading: "いちじょ",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["foundation; base; basis"],
+        englishMeaning: ["a help; an aid; some assistance"],
+        japaneseMeaning: ["わずかばかりの助け。少しの足し。「家計の一助とする」「理解の一助とする」"],
+        exampleSentences: [
+            {
+                sentence: "こうした女性たちにとって、企業が海外からのテレワークを認めると、キャリアを継続できる一助となります",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "断念",
+        reading: "だんねん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["abandoning (hope, plans); giving up"],
+        japaneseMeaning: ["自分の希望などを、きっぱりとあきらめること。「進学を断念する」"],
+        exampleSentences: [
+            {
+                sentence: "会社としては海外で暮らすことだけを理由に仕事を断念して欲しくなかったといいます",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "取得",
+        reading: "しゅとく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["acquisition; obtaining; gaining possession; purchase"],
+        japaneseMeaning: ["手に入れること。ある資格・権利・物品などを自分のものとして得ること。「免許を取得する」"],
+        exampleSentences: [
+            {
+                sentence: "ビザはどうやって取得？",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "公私",
+        reading: "こうし",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["public and private; official and personal; government and people"],
+        japaneseMeaning: ["おおやけとわたくし。公的な事と私的な事。「公私のけじめ」「公私にわたる」「公私混同」"],
+        exampleSentences: [
+            {
+                sentence: "公私ともに充実",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "的確",
+        reading: "てきかく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["precise; accurate; appropriate; exactly the right"],
+        japaneseMeaning: ["的 (まと) をはずさないで、まちがいがないこと。また、そのさま。てっかく。「意図を―に伝える」「―な判断」"],
+        exampleSentences: [
+            {
+                sentence: "短い時間に的確な判断と指示ができるよう前日の準備を万全にして臨んでいます",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "投資家",
+        reading: "とうしか",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["investor"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "Javaでは、このクラスを組み合わせてプログラムを作っていきますので、Javaの土台となる部分になります",
+                sentence: "キャリアを継続したい女性たちがこうした企業を選ぶようにもなり、人材が豊かになることで、周囲の評価、投資家たちの評価も上がってくるでしょう」",
                 source: {
-                    name: "【Java超入門コース】05.プログラム実行方法 ｜プログラムを書いて動かしてみよう",
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
                     link: ""
                 }
             }
         ],
-        tags: ["プログラミング"]
+        tags: ["記事"]
     }, {
-        word: "波括弧",
-        reading: "なみかっこ",
+        word: "好循環",
+        reading: "こうじゅんかん",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["curly bracket"],
-        japaneseMeaning: [],
-        exampleSentences: [],
-        tags: ["プログラミング"]
-    }, {
-        word: "括る",
-        reading: "くくる",
-        transitivity: {
-            type: "",
-            opposingWord: ""
-        },
-        englishMeaning: ["to tie up; to tie together; to bind; to bundle"],
+        englishMeaning: ["virtuous cycle; virtuous circle"],
         japaneseMeaning: [],
         exampleSentences: [
             {
-                sentence: "波括弧「 { } 」で、くくられた部分をブロックといいます。",
+                sentence: "日本の働き方はそんな好循環が生まれる入口にいるように取材を通じて感じました",
                 source: {
-                    name: "【Java超入門コース】05.プログラム実行方法 ｜プログラムを書いて動かしてみよう",
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
                     link: ""
                 }
             }
         ],
-        tags: ["プログラミング"]
-    }, {
-        word: "半角",
-        reading: "はんかく",
-        transitivity: {
-            type: "",
-            opposingWord: ""
-        },
-        englishMeaning: ["half-width characters (e.g. romaji); single-byte characters"],
-        japaneseMeaning: [],
-        exampleSentences: [
-            {
-                sentence: "メソッドの書き方は、パブリックと書いて、半角",
-                source: {
-                    name: "【Java超入門コース】05.プログラム実行方法 ｜プログラムを書いて動かしてみよう",
-                    link: ""
-                }
-            }
-        ],
-        tags: ["プログラミング"]
-    }, {
-        word: "丸括弧",
-        reading: "まるかっこ",
-        transitivity: {
-            type: "",
-            opposingWord: ""
-        },
-        englishMeaning: ["parentheses; round brackets"],
-        japaneseMeaning: [],
-        exampleSentences: [],
-        tags: ["プログラミング"]
-    }, {
-        word: "角括弧",
-        reading: "かくがっこ",
-        transitivity: {
-            type: "",
-            opposingWord: ""
-        },
-        englishMeaning: ["square brackets"],
-        japaneseMeaning: [],
-        exampleSentences: [],
-        tags: ["プログラミング"]
+        tags: ["記事"]
     }
 ]
 
-module.exports = expressions120621
+module.exports = expressions240721
